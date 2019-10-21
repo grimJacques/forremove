@@ -1,0 +1,21 @@
+{
+  "name": "Vik-Vik",
+  "version": "1.0.0",
+  "homepage": "https://grimJacques.git.io/forremove",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.js",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "pixi.js": "^5.1.5"
+  }
+}
